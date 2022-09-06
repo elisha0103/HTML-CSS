@@ -1,0 +1,43 @@
+.gc1 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.gc2 {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+}
+
+.gc3 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 30px;
+}
+
+.gc4 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-row-gap: 30px;
+}
+
+.gc5 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px 40px;
+}
+
+.gc6 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 5px;
+}
+
+.i7 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.i1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
